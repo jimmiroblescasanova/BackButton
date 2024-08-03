@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Jimmiroblescasanova\BackButton;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class BackButtonPlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'backbutton';
     }
 
     public function register(Panel $panel): void
